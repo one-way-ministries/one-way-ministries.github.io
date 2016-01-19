@@ -5,5 +5,7 @@ permalink: /ministries/
 ---
 
 {% for post in site.ministries %}
-{% include tile-small.html %}
+<div class="col-md-6 col-lg-4 stack">
+  {% include tile-small.html %}
+</div>
 {% endfor %}
