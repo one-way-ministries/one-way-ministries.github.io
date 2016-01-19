@@ -1,5 +1,5 @@
-<div class="col-md-12">
-    <div class="tile">
+<div class="col-md-6 col-lg-4 stack">
+    <div class="tile small">
         {% if post.featured_image or post.featured_video_id %}
         <a href="{{ post.url | prepend: site.baseurl }}" class="featurette">
             {% if post.featured_image %}
@@ -13,15 +13,6 @@
         {% endif %}
         <div class="inner-guts">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <aside>
-                {{ post.date | date: "%m.%d.%y" }}
-                {% if post.categories != empty %}
-                    &middot;
-                    {% for category in post.categories %}
-                        <span>{{ category }}</span>
-                    {% endfor %}
-                {% endif %}
-            </aside>
             <div class="excerpt">{{ post.excerpt }}</div>
             <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info">Read More <i class="fa fa-angle-right"></i></a>
             {% if post.categories != empty %}

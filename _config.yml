@@ -4,14 +4,17 @@ destination: ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
-# collections: null
+collections:
+  ministries:
+    output: true
+    permalink: /ministries/:path/
 
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
 exclude:      []
 keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
+encoding:     utf-8
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Filtering Content
@@ -26,7 +29,7 @@ gems:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 

@@ -1,10 +1,10 @@
 # Site Settings
-title: 'Scotch Jekyll Bootstrap'
-description: 'An Open-Source Bootstrap 3 Jekyll Theme by Scotch'
-url: 'http://scotch-io.github.io' # the base hostname & protocol for your site
-footer_text: 'This text is footer text. Footer text goes here.'
+title: 'One Way Ministries'
+description: 'Jesus is the way'
+url: '' # the base hostname & protocol for your site
+footer_text: 'So my strength is now - for going out and coming in - Joshua 14:11b'
 
 # Admin Settings
-admin_name: 'Nicholas Cerminara'
-admin_email: 'nick@scotch.io'
+admin_name: 'Bruce Brouwer'
+admin_email: 'bruce.brouwer@gmail.com'
 
