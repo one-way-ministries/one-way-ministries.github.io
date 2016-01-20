@@ -8,3 +8,4 @@ lead_text: "Go forth and baptize in My Name"
 29 people were baptised in Kenya river this day.
 
 The Children and Pastors from a local sunday school in Bangula. We provided Sunday School materials.
+

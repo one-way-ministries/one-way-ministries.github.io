@@ -5,3 +5,4 @@ featured_image: /images/db_Bikes_sm5.jpg
 ---
 
 New bikes purchased through One Way Ministry funds.
+
