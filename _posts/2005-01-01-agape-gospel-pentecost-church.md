@@ -3,7 +3,8 @@ layout: inner
 title: 'Agape Gospel Pentecost Church'
 date: 2005-01-01 13:26:34
 categories: endorsements
-lead_text: 'Agape Gospel Pentecost Church - Sorgin, Malawi, Central Africa'
+lead_text: 'Sorgin, Malawi, Central Africa'
+featured_image: /images/Africa.jpg
 ---
 
 I am an overseer of more than 30 churches, 26 pastors and three senior pastors under the leadership of our presiding

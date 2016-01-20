@@ -1,6 +1,25 @@
 ---
 ---
-@import '../_sass/bootstrap';
+// Core variables and mixins
+@import "../_sass/bootstrap/variables";
+@import "../_sass/bootstrap/mixins";
+
+// Reset and dependencies
+@import "../_sass/bootstrap/normalize";
+@import "../_sass/bootstrap/print";
+
+// Core CSS
+@import "../_sass/bootstrap/scaffolding";
+@import "../_sass/bootstrap/type";
+@import "../_sass/bootstrap/grid";
+@import "../_sass/bootstrap/forms";
+@import "../_sass/bootstrap/buttons";
+
+// Components
+@import "../_sass/bootstrap/navs";
+@import "../_sass/bootstrap/navbar";
+@import "../_sass/bootstrap/pagination";
+
 @import '../_sass/syntax-highlighting';
 
 
@@ -127,7 +146,7 @@ h1.special {
         display: block;
         overflow: hidden;
         width: 100%;
-        height: 550px;
+        height: 200px;
         background-color: #e8e8e8;
 
         .img {
@@ -243,7 +262,7 @@ h1.special {
     }
 
     .featurette {
-        height: 200px;
+        height: 170px;
     }
 
     .excerpt {
@@ -279,7 +298,7 @@ aside {
 }
 
 .topper {
-    height: 500px;
+    height: 200px;
     position: relative;
 
     .img {
@@ -318,7 +337,7 @@ pre {
 
 @media only screen and (max-width : 480px) {
     .tile .featurette, .topper {
-        height: 300px;
+        height: 150px;
     }
 
     h1.special,

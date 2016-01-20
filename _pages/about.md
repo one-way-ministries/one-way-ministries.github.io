@@ -2,6 +2,7 @@
 layout: inner
 title: About
 permalink: /about/
+featured_image: /images/cloth.jpg
 ---
 
 <img style="float: right;" src="/images/duane-and-emily.jpg" alt="Image of Duane and Emily">

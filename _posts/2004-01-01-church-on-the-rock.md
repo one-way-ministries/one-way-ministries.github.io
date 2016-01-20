@@ -3,7 +3,8 @@ layout: inner
 title: 'Church on the Rock'
 date: 2004-01-01 13:26:34
 categories: endorsements
-lead_text: 'Church on the Rock - Blantyre Malawi'
+lead_text: 'Blantyre Malawi'
+featured_image: /images/Falls.jpg
 ---
 
 I, on behalf of our pastors and churches in Malawi and Mozambique would like to thank the Lord for your Ministry. We

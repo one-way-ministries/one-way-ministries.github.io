@@ -3,7 +3,7 @@ layout: inner
 title: 'From our trip during September - October 2003'
 date: 2003-10-08 13:26:34
 categories: testimonies
-#lead_text: 'Where does the lead text go?'
+featured_image: /images/Zebras.jpg
 ---
 
 In September 2003, many lives were touched through God's work.

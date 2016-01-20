@@ -1,3 +1,4 @@
 main:
+  - { url: '/vision', text: 'Vision' }
   - { url: '/ministries', text: 'Ministries' }
   - { url: '/about', text: 'About Us' }
