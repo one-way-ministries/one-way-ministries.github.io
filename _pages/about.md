@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: About
+title: About Us
 permalink: /about/
 featured_image: /images/cloth.jpg
 ---
