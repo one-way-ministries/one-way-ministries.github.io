@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8369e271-208e-45e0-ade1-c3657ceb17d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_pages/donate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/nav.yml" afterPath="$PROJECT_DIR$/_data/nav.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8369e271-208e-45e0-ade1-c3657ceb17d2" name="Default" comment="" />
     <ignored path="one-way-ministries.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/_data/nav.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.1440678">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -765,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/_data/nav.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1440678">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
