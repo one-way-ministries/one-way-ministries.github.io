@@ -1,5 +1,7 @@
 ---
 ---
+//@import "../_sass/bootstrap";
+
 // Core variables and mixins
 @import "../_sass/bootstrap/variables";
 @import "../_sass/bootstrap/mixins";
@@ -11,16 +13,40 @@
 // Core CSS
 @import "../_sass/bootstrap/scaffolding";
 @import "../_sass/bootstrap/type";
+//@import "../_sass/bootstrap/code";
 @import "../_sass/bootstrap/grid";
+@import "../_sass/bootstrap/tables";
 @import "../_sass/bootstrap/forms";
 @import "../_sass/bootstrap/buttons";
 
 // Components
+@import "../_sass/bootstrap/component-animations";
+//@import "../_sass/bootstrap/dropdowns";
+//@import "../_sass/bootstrap/button-groups";
+//@import "../_sass/bootstrap/input-groups";
 @import "../_sass/bootstrap/navs";
 @import "../_sass/bootstrap/navbar";
+//@import "../_sass/bootstrap/breadcrumbs";
 @import "../_sass/bootstrap/pagination";
+//@import "../_sass/bootstrap/pager";
+//@import "../_sass/bootstrap/labels";
+//@import "../_sass/bootstrap/badges";
+//@import "../_sass/bootstrap/jumbotron";
+//@import "../_sass/bootstrap/thumbnails";
+//@import "../_sass/bootstrap/alerts";
+//@import "../_sass/bootstrap/progress-bars";
+//@import "../_sass/bootstrap/media";
+//@import "../_sass/bootstrap/list-group";
+//@import "../_sass/bootstrap/panels";
+//@import "../_sass/bootstrap/responsive-embed";
+//@import "../_sass/bootstrap/wells";
+//@import "../_sass/bootstrap/close";
 
-@import '../_sass/syntax-highlighting';
+// Utility classes
+//@import "../_sass/bootstrap/utilities";
+@import "../_sass/bootstrap/responsive-utilities";
+//
+//@import '../_sass/syntax-highlighting';
 
 
 $scotch-primary: orange;

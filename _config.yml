@@ -49,6 +49,9 @@ timezone:      null
 quiet:    false
 defaults: []
 
+sass:
+  style: compressed
+
 # Markdown Processors
 rdiscount:
   extensions: []
