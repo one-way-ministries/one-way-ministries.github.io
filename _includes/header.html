@@ -19,62 +19,33 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }} ✝ {{ site.data.global.description }}" href="{{ site.data.global.url }}/atom.xml">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="{{ site.data.global.url }}/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.data.global.url }}/img/favicons/favicon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.data.global.url }}/img/favicons/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.data.global.url }}/img/favicons/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.data.global.url }}/img/favicons/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.data.global.url }}/img/favicons/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="{{ site.data.global.url }}/img/favicons/favicon-96.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.data.global.url }}/img/favicons/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.data.global.url }}/img/favicons/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.data.global.url }}/img/favicons/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.data.global.url }}/img/favicons/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.data.global.url }}/img/favicons/favicon-180.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="{{ site.data.global.url }}/img/favicons/favicon-192.png">
-    <meta name="application-name" content="{{ site.data.global.title }} ✝ {{ site.data.global.description }}">
-    <meta name="msapplication-TileImage" content="{{ site.data.global.url }}/img/favicons/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.data.global.url }}/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.data.global.url }}/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.data.global.url }}/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.data.global.url }}/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.data.global.url }}/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.data.global.url }}/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.data.global.url }}/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.data.global.url }}/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.data.global.url }}/images/favicon/apple-icon-180x180.png">
+    <link rel="shortcut icon" type="image/png" sizes="192x192"  href="{{ site.data.global.url }}/images/favicon/android-icon-192x192.png">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ site.data.global.url }}/images/favicon/favicon-32x32.png">
+    <link rel="shortcut icon" type="image/png" sizes="96x96" href="{{ site.data.global.url }}/images/favicon/favicon-96x96.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ site.data.global.url }}/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.data.global.url }}/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ site.data.global.url }}/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="application-name" content="{{ site.data.global.title }} ✝ {{ site.data.global.description }}">
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ site.data.global.url }}/css/style.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic|Oswald:300,400,700">
+
     <!--[if lt IE 9]>
         <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="{{ site.data.global.url }}/js/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Fonts needed for above the fold. See fonts css from footer.html -->
-    <style>
-        @font-face {
-            font-family: 'Oswald';
-            font-style: normal;
-            font-weight: 400;
-            src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-        }
-        @font-face {
-            font-family: 'Oswald';
-            font-style: normal;
-            font-weight: 700;
-            src: local('Oswald Bold'), local('Oswald-Bold'), url(http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-        }
-        @font-face {
-            font-family: 'Roboto Condensed';
-            font-style: normal;
-            font-weight: 300;
-            src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nBBQ_Gf4FfI8J4SYljBAylk.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-        }
-        @font-face {
-            font-family: 'Roboto Condensed';
-            font-style: italic;
-            font-weight: 300;
-            src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(http://fonts.gstatic.com/s/robotocondensed/v13/mg0cGfGRUERshzBlvqxeABN-SY3RXjKuKZR1RHIa0nw.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-        }
-    </style>
-
 </head>
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
 
